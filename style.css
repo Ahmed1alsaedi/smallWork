@@ -4,12 +4,15 @@ body{
 .centering{
    
     display: flex;  
+    flex-wrap: wrap;
     justify-content: center;
 
 }
 .container{
     
     display: flex;
+    flex-wrap: wrap;
+
     background-color: rgb(255, 255, 255);
     max-width: 750px;
     min-height: 400px;
